@@ -278,3 +278,49 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+
+.newsletter-container {
+  background: #f8f8f8;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.newsletter-container h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+#newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#newsletter-email {
+  padding: 10px 15px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#newsletter-form button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#newsletter-form button:hover {
+  opacity: 0.8;
+}
+
+.newsletter-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
